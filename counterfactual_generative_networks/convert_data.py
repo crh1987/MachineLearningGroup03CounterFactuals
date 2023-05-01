@@ -8,6 +8,10 @@ author: Charles Hacker Aarti Nayak Matt Harris Afe Omiyi
 import numpy as np
 import pandas as pd
 
+# Program reads in chineseMNIST.csv, converts to a dictionary of np.array's and is saved to data.npy.
+# data.npy is then read and reformatted into row/column format and dtypes are converted to match up with
+# desired datat format.
+
 def main():
     # read the CSV file
     df = pd.read_csv('chineseMNIST.csv')
