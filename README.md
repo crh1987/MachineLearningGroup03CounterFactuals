@@ -3,7 +3,7 @@ It is suggested to run this code on linux
 # SETUP:
   - Install conda
   - Clone the repo and build the environment
-  - 
+  
   ```
     git clone https://github.com/crh1987/MachineLearningGroup03CounterFactuals.git
     cd MachineLearningGroup03CounterFactuals/counterfactual_generative_networks
