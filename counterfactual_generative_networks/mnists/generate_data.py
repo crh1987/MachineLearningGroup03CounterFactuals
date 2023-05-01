@@ -47,6 +47,7 @@ def generate_dataset(dl, path):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
+    # Added our chinese MNIST dataset to the available arguments
     parser.add_argument('--dataset',
                         choices=['colored_MNIST', 'double_colored_MNIST', 'wildlife_MNIST', 'chinese_MNIST'],
                         help='Name of the dataset. Make sure the name and the weight_path match')
