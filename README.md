@@ -17,6 +17,7 @@ It is suggested to run this code on linux
    
 # MNISTS:
   To run this model with the chinese_MNIST dataset you will:
+  
     - Preprocess data
     - Train the CGN
     - Generate counterfactual datasets
