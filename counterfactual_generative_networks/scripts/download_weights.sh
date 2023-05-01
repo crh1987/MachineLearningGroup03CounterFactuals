@@ -1,8 +1,6 @@
 #!/usr/bin/env bash
 
 
-mv u2net.pth imagenet/weights
-
 gdown "https://drive.google.com/u/0/uc?id=12yVFHPUjKmUFGnO2D4xVlTSpF8CUj136&export=download"
 mv cgn.pth imagenet/weights
 
