@@ -1,6 +1,14 @@
+""" 
+file: checkout.py
+description: This program analyzed our test/train split to make sure it was proportional
+language: python3
+author: Charles Hacker Aarti Nayak Matt Harris Afe Omiyi
+"""
+
 import numpy as np
 
-#This function analyzed our randomized test/train split
+# This function analyzed our randomized test/train split and displays the count of each label for 
+# both the test and training splits of the data
 def main():
 	x = np.load('chinese_MNIST_data.npy', encoding='latin1', allow_pickle=True).item()
 	testlabels = x.get('test_label')
