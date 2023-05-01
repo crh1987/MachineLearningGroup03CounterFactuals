@@ -47,8 +47,9 @@ class ColoredMNIST(Dataset):
 
     def __len__(self):
         return self.ims.shape[0]
-import pandas as pd
-import numpy as np
+
+# Added a ChineseMNIST class similar to ColoredMNIST
+
 class ChineseMNIST(Dataset):
     def __init__(self, train, color_var=0.02):
         self.data_path = 'chinese_MNIST_data.npy'
@@ -224,6 +225,7 @@ def get_dataloaders(dataset, batch_size, workers):
 
     return dl_train, dl_test
 
+# Added our chinese MNIST counterfactual to the TENSOR_DATASETS
 TENSOR_DATASETS = ['colored_MNIST', 'colored_MNIST_counterfactual',
                    'double_colored_MNIST', 'double_colored_MNIST_counterfactual',
                    'wildlife_MNIST', 'wildlife_MNIST_counterfactual', 'chinese_MNIST_counterfactual']
