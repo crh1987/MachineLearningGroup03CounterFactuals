@@ -57,7 +57,8 @@ Generate the counterfactuals using the weights you just generated. Replace 'WEIG
     
 # Train the Invariant Classifier
 
-    
+Save the non-counterfactual data as tensors.
+
     python mnists/generate_data.py --dataset chinese_MNIST
     
     
