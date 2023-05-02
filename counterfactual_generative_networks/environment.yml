@@ -1,4 +1,4 @@
-name: cgn2
+name: cgn
 channels:
   - pytorch
   - defaults
