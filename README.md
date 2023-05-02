@@ -11,7 +11,7 @@
       conda activate cgn
       ```
       
-  - Download u2net.pth from this link: https://drive.google.com/file/d/1ao1ovG1Qtx4b7EoskHXmi2E9rp5CHLcZ/view. Put the u2net.pth file in the imagenet/weights directory. Make all scripts executable and then run
+  - Download u2net.pth from this link: https://drive.google.com/file/d/1ao1ovG1Qtx4b7EoskHXmi2E9rp5CHLcZ/view. Put the u2net.pth file in the imagenet/weights directory. Make all scripts executable by running 'chmod +x scripts/*' and then run
   
       ```
       ./scripts/download_data.sh
